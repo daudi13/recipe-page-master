@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://https://recipe-page-master-orcin.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://https://github.com/daudi13/recipe-page-master.git">
       Solution
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-challenge}">
+    <a href="https://devchallenges.io">
       Challenge
     </a>
   </h3>
@@ -37,9 +37,9 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/daudi13/recipe-page-master/blob/main/Screenshot%20from%202021-01-22%2016-22-39.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+checkout this website above at [vercel](https://recipe-page-master-orcin.vercel.app/). The project is a food receipe blog page inspired from the baking addiction website
 
 - Where can I see your demo?
 - What was your experience?
@@ -50,9 +50,8 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML]
+- [CSS]
 
 ## Features
 
@@ -60,9 +59,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
-- [x] User story: This is a completed user stories
-- [ ] User story: This is a incompleted user stories
-- [ ] User story: This is a incompleted 2nd user stories
+
 
 ## How To Use
 
@@ -89,6 +86,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- 
+- GitHub [@daudi13](https://github.com/daudi13)
+- Twitter [@davouma13](https://davouma13)

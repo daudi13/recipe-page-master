@@ -60,6 +60,7 @@ body {
     width: 1440px;
     padding: 46px 237px 15px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .header__text {
