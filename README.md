@@ -41,10 +41,6 @@
 
 checkout this website above at [vercel](https://recipe-page-master-orcin.vercel.app/). The project is a food receipe blog page inspired from the baking addiction website
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
 
 ### Built With
 
