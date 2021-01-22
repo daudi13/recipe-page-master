@@ -29,7 +29,21 @@ h1 {
     font-size: 48px;
     font-weight: 700;
     line-height: 63.98px;
+}
 
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.99px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 23.99px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 img {
@@ -47,3 +61,73 @@ body {
     margin: 0 auto;
 }
 
+.header__text {
+    display: flex;
+    align-items: start;
+    margin-top: 12px;
+}
+
+.header__text img {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.header__desc {
+    font-family: 'Montserrat', sans-serif;
+    width: 592px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    font-style: italic;
+}
+
+.header .intro__pic {
+    margin: 43px 0 48px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.ingredients {
+    width: 60%;
+}
+
+.sub-title {
+    margin-bottom: 32px;
+}
+
+.sub--title {
+    margin-bottom: 32px;
+}
+
+.mid {
+    margin-top: 31px;
+}
+
+.box {
+    width: 21px;
+    height: 21px;
+    outline: none;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    margin-right: 17px;
+    padding: 10px;
+}
+
+.group__box {
+    display: flex;
+}
+
+.txt {
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.one .group__box:not(:first-child),
+.two .group__box {
+    margin-bottom: 13px;
+}
