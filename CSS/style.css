@@ -53,6 +53,7 @@ img {
 body {
     font-family: 'Montserrat', sans-serif;
     /* overflow-x: hidden; */
+    border-radius: 12px;
 }
 
 .container {
@@ -134,7 +135,8 @@ body {
 
 .noms {
     display: flex;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     padding: 2px 13px 6px;
     border: 0;
@@ -170,6 +172,7 @@ body {
 
 .icon {
     display: flex;
+    align-items: center;
 }
 
 .main__icons .icon:not(:last-child) {
@@ -207,4 +210,117 @@ i {
     line-height: 17.07px;
     font-weight: 500;
     color: #333;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer p {
+    text-align: center;
+    font-size: 10px;
+}
+
+footer p:first-child {
+    margin: 56px 0 41px;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 700px) {
+
+    h1{
+        font-size: 24px;
+        line-height: 31.99px;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 23.99px;
+    }
+
+    h3 {
+        font-size: 16px!important;
+        line-height: 21.33px!important;
+    }
+
+    .txt {
+        font-size: 14px!important;
+    }
+
+    .container {
+        padding: 32px 12px 10px; 
+        max-width: 375px; 
+    }
+
+    .header__desc {
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+
+    .header .intro__pic {
+        margin: 26px 0;
+        width: 352px;
+        height: 202px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .main .ingredients {
+        width: 100%;
+    }
+
+    .main .main__icons {
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+        display: grid;
+        grid-template-areas: 'yield yield yield'
+                            'prep cook total';
+    }
+
+    .main__icons .icon:first-child {
+        grid-area: yield;
+    }
+
+    .main__icons .icon:nth-child(2) {
+        grid-area: prep;
+    }
+
+    .main__icons .icon:nth-child(3) {
+        grid-area: cook;
+    }
+
+    .main__icons .icon:last-child {
+        grid-area: total;
+        margin-bottom: 35px;
+    }
+
+    i {
+        font-size: 20px;
+    }
+
+    .tag__one {
+        font-size: 8px!important;
+    }
+
+    .tag__two {
+        font-size: 10px!important;
+    }
+
+    .group__box .box {
+        margin-right: 8px;
+    }
+
+    .group__noms .txt {
+        font-size: 16px!important;
+    }
+
+    .group__noms .noms {
+        margin-right: 15px!important;
+    }
+
 }
