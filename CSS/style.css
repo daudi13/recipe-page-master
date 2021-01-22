@@ -58,7 +58,7 @@ body {
 
 .container {
     width: 1440px;
-    padding: 46px 237px;
+    padding: 46px 237px 15px;
     margin: 0 auto;
 }
 
@@ -322,5 +322,4 @@ footer p:first-child {
     .group__noms .noms {
         margin-right: 15px!important;
     }
-
 }
