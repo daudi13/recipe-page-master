@@ -135,15 +135,12 @@ body {
 
 .noms {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 2px 13px 6px;
+    padding: 2px 13px;
     border: 0;
     outline: none;
     background: var(--ylw);
-    height: 36px;
-    width: 36px;
+    height: 39px;
+    width: 39px;
     color: #fff;
     font-size: 24px;
     /* line-height: 32px; */
@@ -151,6 +148,11 @@ body {
     font-family: 'Playfair Display', serif;
     border-radius: 6px;
     margin-right: 17px;
+}
+
+.noms p {
+    align-items: center;
+    justify-items: center;
 }
 
 
